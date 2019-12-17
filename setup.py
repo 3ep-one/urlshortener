@@ -20,12 +20,12 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["urlshortner"],
+    packages=["urlshortener"],
     include_package_data=True,
     install_requires=["redis", "HTTPServer"],
     entry_points={
         "console_scripts": [
-            "urlshortner=urlshortner.__main__:main",
+            "urlshortener=urlshortener.__main__:main",
         ]
     },
 )
