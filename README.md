@@ -19,8 +19,6 @@ installed with:
 pip install urlshortener==1.0.0
 
 
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Running the tests
 
 You can run test by :
@@ -37,8 +35,8 @@ You should first set configs.
 'handeler.ini' contain http listener configuration
 'config.ini' contain url shortener configuration
 
-After running the urlshortener you cabn send POST request JSON with format {"url": "www.eample.com/sddf324sdf"} and
-recieve JSON response with format {"url" : "shorturl.com/asd"}
+After running the urlshortener you can send POST request JSON with format {"url": "www.eample.com/long_url_example"} and
+recieve JSON response with format {"url" : "shorturl.com/exp"}
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
